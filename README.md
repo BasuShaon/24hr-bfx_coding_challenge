@@ -9,11 +9,13 @@ The project follows the following repository structure:
 project_root/           
 │-- task_1/             
 │   ├── human_proteins_dirty.csv
-│   ├── human_proteins_clean.csv # cleaned file from code
+│   ├── human_proteins_clean.csv    # cleaned file from code
+│
 │-- task_2/             
 │   ├── approved_drugs.csv
 │   ├── spike_positive_compounds.csv
-│   ├── stat_report.csv # feature-wise stat report from code
+│   ├── stat_report.csv             # feature-wise stat report from code
+│
 │-- task_3/         
 │   ├── proteins.csv
 │   ├── protein_compartments.csv
