@@ -24,15 +24,15 @@ def run_analysis():
     new_interactions = analyzer.select_crosscompartment_unobserved_interactions()
     print("New potential interactions (unobserved and different compartments):")
     print(new_interactions)
-    new_interactions.to_csv(os.path.join(task_3_dir, 'protein_question1.csv'))
-    print(f"\nQ1 answer saved to: {os.path.join(task_3_dir, 'proteins_question1.csv')}")
+    new_interactions.to_csv(os.path.join(task_3_dir, 'protein_answer1.csv'))
+    print(f"\nQ1 answer saved to: {os.path.join(task_3_dir, 'proteins_answer1.csv')}")
 
     # Answer question 2
     filtered_pairs = analyzer.select_crossnetwork_crosscompartment_interactions()
     print("\nFiltered pairs (different compartment and different network):")
     print(filtered_pairs)
-    filtered_pairs.to_csv(os.path.join(task_3_dir, 'protein_question2.csv'))
-    print(f"\nQ2 answer saved to: {os.path.join(task_3_dir, 'proteins_question2.csv')}")
+    filtered_pairs.to_csv(os.path.join(task_3_dir, 'protein_answer2.csv'))
+    print(f"\nQ2 answer saved to: {os.path.join(task_3_dir, 'proteins_answer2.csv')}")
 
 
 if __name__ == "__main__":
