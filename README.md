@@ -30,7 +30,7 @@ project_root/
 │   │-- task_3_solution.py
 │   │-- protein_network_analyzer.py        
 │
-│-- requirements.txt     
+│-- requirements.txt                # packages for loading into virtual / local env
 │-- README.md           
 ```
 
@@ -46,8 +46,9 @@ pip install -r requirements.txt
 ### 2. Running Scripts for Task 1 and 3
 Navigate to the `scripts` folder and run the respective script for each task:
 ```sh
-Python3 scripts/task_1_solution.py
-Python3 scripts/task_3_solution.py
+cd scripts
+Python3 task_1_solution.py
+Python3 task_3_solution.py
 ```
 
 ### 3. Running Jupyter Notebook for Task 2
@@ -55,6 +56,6 @@ Launch Jupyter Notebook:
 ```sh
 jupyter notebook
 ```
-Once the notebook interface opens, navigate to the `scripts` folder and open `task_1_solution.ipynb`.
+Then, in Jupyter Notebooks, navigate to the `scripts` folder and open `task_1_solution.ipynb`.
 
 
