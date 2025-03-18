@@ -6,25 +6,24 @@ The project follows the following repository structure:
 ## Project Structure
 
 ```
-project_root/           # Data for tasks
-│-- task_1/          
+project_root/           
+│-- task_1/             
 │   ├── human_proteins_dirty.csv
 │   ├── human_proteins_clean.csv # cleaned file from code
-│-- task_2/          
+│-- task_2/             
 │   ├── approved_drugs.csv
 │   ├── spike_positive_compounds.csv
+│   ├── stat_report.csv # feature-wise stat report from code
 │-- task_3/         
 │   ├── proteins.csv
 │   ├── protein_compartments.csv
 │   ├── protein_interactions.csv
 │
-│-- scripts/             # Python scripts for Task 1 and 3
+│-- scripts/             
 │   │-- task_1_solution.py
+│   │-- task_2_solution.pynb
 │   │-- task_3_solution.py
 │   │-- utils.py        
-│
-│-- notebooks/           # Jupyter Notebooks for Task 2
-│   │-- task_2_solution.ipynb
 │
 │-- requirements.txt     
 │-- README.md           
