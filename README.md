@@ -34,7 +34,7 @@ project_root/
 ## Setup Instructions
 
 ### 1. Install Dependencies
-Ensure you have Python installed, then run:
+Ensure you have Python3.11 installed, cd to root, then install dependencies in a virtual environment
 ```sh
 cd Relation_coding_challenge
 pip install -r requirements.txt
@@ -43,8 +43,8 @@ pip install -r requirements.txt
 ### 2. Running the Scripts for Task 1 and 3
 Navigate to the `scripts` folder and run the respective script for each task:
 ```sh
-python scripts/task_1_solution.py
-python scripts/task_3_solution.py
+Python3 scripts/task_1_solution.py
+Python3 scripts/task_3_solution.py
 ```
 
 ### 3. Running the Jupyter Notebook for Task 2
