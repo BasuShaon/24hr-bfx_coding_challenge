@@ -1,5 +1,10 @@
 # Ignore dstore files
-dstore
+.DS_Store
 
 # Ignore R history files
 *.Rhistory
+
+# Ignore csv files
+*.csv
+*.tsv
+*.txt
