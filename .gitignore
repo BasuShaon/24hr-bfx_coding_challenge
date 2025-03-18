@@ -1,5 +1,5 @@
 # Ignore dstore files
-.DS_Store
+*.DS_Store
 
 # Ignore R history files
 *.Rhistory
