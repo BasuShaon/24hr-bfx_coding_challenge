@@ -1,6 +1,6 @@
 # 24 hour coding challenge (Shaon)
 
-The project follows the following repository structure:
+The project structure for the 3 bioinformatics tasks:
 
 ## Project Structure
 
