@@ -1,6 +1,6 @@
-# Relation coding challenge (Shaon)
+# 24 hour coding challenge (Shaon)
 
-This repository contains solutions for the 3 tasks. 
+This repository contains solutions for the 3 tasks in 24 hours. 
 The project follows the following repository structure:
 
 ## Project Structure

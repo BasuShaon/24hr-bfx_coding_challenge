@@ -1,3 +1,6 @@
+#Ignore pdfs
+*.pdf
+
 # Ignore dstore files
 *.DS_Store
 
